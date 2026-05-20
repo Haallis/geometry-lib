@@ -1,0 +1,24 @@
+{
+  "name": "geometry-lib",
+  "version": "1.0.0",
+  "description": "TypeScript library for working with geometric shapes",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:check": "tsc --noEmit",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "geometry",
+    "shapes",
+    "typescript"
+  ],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "devDependencies": {
+    "tsx": "^4.22.3",
+    "typescript": "^6.0.3"
+  }
+}
